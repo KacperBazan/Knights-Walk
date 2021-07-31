@@ -6,8 +6,8 @@ using vec2_t = std::array<int, 2>;
 class Board
 {
 private:
-	int m_cols{};	 // Number of collumns.
-	int m_rows{};	 // Number of rows.
+	int m_cols{}; // Number of collumns.
+	int m_rows{}; // Number of rows.
 	bool** m_grid{}; // Multi-dimensional array that will hold bools.
 
 public:

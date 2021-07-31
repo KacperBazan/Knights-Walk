@@ -23,6 +23,6 @@ public:
 	/* Reverts the knight. Essentially the opposite of the move function. */
 	void unmove(int col_change, int row_change, Board& board);
 
-	void setPos(vec2_t pos);                      // Set knight's position.
+	void setPos(vec2_t pos); // Set knight's position.
 	const vec2_t getPos() const { return m_pos; } // Return knight's position.
 };
