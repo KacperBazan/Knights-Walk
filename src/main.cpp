@@ -12,7 +12,7 @@ using vec2_t = std::array<int, 2>;
 /* Global Path Variables. */
 std::vector<vec2_t> chessboard_path{}; // Vector that holds pairs of integers Format: (Collumn, Row)
 std::vector<sf::Vertex> vertex_path{}; // Vector that holds sf::Vertex's. Used to actually draw the knight's path.
-sf::Vertex *vertex_start{};			   // Pointer to the first element in the vertex_path. window.draw() needs this pointer.
+sf::Vertex *vertex_start{}; // Pointer to the first element in the vertex_path. window.draw() needs this pointer.
 
 /*	Recursive function that takes a knight, a board, and populates a path with a
 	knight's path that traverses each square on the board. Does not find each path,
