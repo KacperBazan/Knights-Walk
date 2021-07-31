@@ -1,15 +1,15 @@
 <div align="center">
   <h1>The Knight's Walk</h1>
-    <blockquote>
         <p><i>Horsey make ellll shape!</i></p>
         <p><b>Finding complete knights' paths on different sized chessboards using C++.</b></p>
         <img src=https://img.shields.io/badge/Build-Working-brightgreen>
         <img src=https://img.shields.io/badge/Progress-Complete-Green>
-    </blockquote>
 </div>
 
-![alt text](https://github.com/KacperBazan/Knights-Walk/blob/main/img/KnightsWalk1.jpg)
-
+<p align="center">
+<img src ="https://github.com/KacperBazan/Knights-Walk/blob/main/img/KnightsWalk1.jpg" width="550" title="A complete Knight's walk on an 8 by 8 chessboard.">
+</p>
+  
 ## Installation
 I am still learning CMAKE, so for the time being, please build this using Visual Studio 2019.
 1. Download this repository and unzip it. The root folder will be the folder with ```-main``` appended to the repository name.
@@ -37,6 +37,17 @@ I am still learning CMAKE, so for the time being, please build this using Visual
 23. Copy all the ```.dll``` files and paste them in the same folder where the project ```.exe``` is.
 24. Rebuild one more time.
 
+## How to use?
+1. Navigate to the ```main.cpp``` file.
+2. Navigate to the ```int main()``` entry point.
+3. Change the amount of rows and collumns with the variables ```cols``` and ```rows```.
+4. Navigate to the declaration of a ```Knight```.
+5. Change it's position from (0,0) to something else by altering the numbers in ```Knight knight{0,0};```.
+6. Build and run the executable.
 
+## More Pictures
+<p align="center">
+<img src ="https://github.com/KacperBazan/Knights-Walk/blob/main/img/KnightsWalk2.jpg" width="550" title="A complete Knight's walk on a 9 by 9 chessboard.">
+</p>
 
 
