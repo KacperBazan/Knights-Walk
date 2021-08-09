@@ -36,6 +36,7 @@ I am still learning CMAKE, so for the time being, please build this using Visual
 22. Unzip and navigate to the ```bin``` folder.
 23. Copy all the ```.dll``` files and paste them in the same folder where the project ```.exe``` is.
 24. Rebuild one more time.
+25. Exectuable will be located in ```build/Debug``` or ```build/Release``` depending on which build type you used in Visual Studio.
 
 ## How to use?
 1. Navigate to the ```main.cpp``` file.
