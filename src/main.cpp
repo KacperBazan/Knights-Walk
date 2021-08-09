@@ -145,8 +145,8 @@ int main()
 		window.clear(Constants::bg);
 
 		/* Draw the actual chess board. */
-		int cols{5}; // Number of vertical collumns.
-		int rows{5}; // Number of horizontal rows.
+		int cols{8}; // Number of vertical collumns.
+		int rows{8}; // Number of horizontal rows.
 		float w{(float)Constants::screen_width / ((float)cols + 1)}; // Width of each square using screen width and collumns.
 		float h{(float)Constants::screen_height / ((float)rows + 1)}; // Height of each square using screen height and rows.
 
